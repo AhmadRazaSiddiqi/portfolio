@@ -16,21 +16,21 @@ const experienceItems: ExperienceItem[] = [
     company: "EverSols",
     description:
       "Contributed to the development of a client-facing web application using React and Node.js. Implemented new features, fixed bugs, and participated in agile development cycles. Gained hands-on experience with REST APIs, database management with PostgreSQL, and version control with Git.",
-    date: "May 2025 - Present",
+    date: "Sept. 2024 - Present",
   },
   {
     role: "Frontend Developer (Intern)",
     company: "EverSols",
     description:
       "Actively contributing to an open-source platform for developers. My contributions include developing UI components with Tailwind CSS, enhancing API endpoints, and improving overall code quality through peer reviews.",
-    date: "Jan 2025 - Apr 2025",
+    date: "May 2024 - Apr 2025",
   },
   {
     role: "Web Developer (Intern)",
     company: "An-Naafia M&T Pvt. Ltd.",
     description:
       "Actively contributing to an open-source platform for developers. My contributions include developing UI components with Tailwind CSS, enhancing API endpoints, and improving overall code quality through peer reviews.",
-    date: "Oct 2024 - Dec 2025",
+    date: "Sept. 2023 - Jan 2024",
   },
 ]
 

@@ -40,11 +40,12 @@ const About = () => {
                 </div>
  
                 <span className="font-sans w-full text-neutral-900 dark:text-neutral-100 font-semibold text-lg sm:text-base md:text-lg lg:text-xl leading-relaxed text-justify">
-                    <TextGenerateEffect text="I'm a Full-Stack Developer passionate about backend development, API design, and building scalable systems. I love solving real-world problems through clean, maintainable code and robust logic."/>
-                    <br/>
-                    <TextGenerateEffect text="My strength lies in backend systems, working with tools like Node.js, Express, and MongoDB, while also using modern UI libraries for smooth frontend experiences. I'm always looking to optimize systems, integrate tools, and create reliable, maintainable architectures." />
-                    <br/>
-                    <TextGenerateEffect text="I enjoy contributing to meaningful projects—especially those that challenge me to grow, collaborate, and make an impact."/>
+                <TextGenerateEffect text="I'm a Full-Stack Developer with equal passion for frontend and backend development. I enjoy crafting seamless user interfaces while also building robust, scalable backend systems that power real-world applications." />
+                <br/>
+                <TextGenerateEffect text="On the frontend, I work with modern libraries and frameworks to deliver responsive, intuitive experiences. On the backend, I design efficient APIs, manage databases, and ensure performance, security, and reliability." />
+                <br/>
+                <TextGenerateEffect text="I thrive on solving complex problems end-to-end, collaborating with teams, and creating maintainable architectures that drive meaningful impact." />
+
                 </span> 
             </div>
         </motion.section>

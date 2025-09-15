@@ -8,32 +8,32 @@ import Image from "next/image"
 const projects = [
     {
         id: 1,
-        title: "Devflow Console",
+        title: "Ai Trip Planner",
         description:
-            "A dashboard application integrated with GitHub, developed using Golang and the GitHub GraphQL API, to display repository analytics, pull request data, and test summaries.",
-        image: "https://ik.imagekit.io/lmpthl5suv/devc.jpg?updatedAt=1748962565750",
-        techStack: ["Next.js", "Github GraphQL API", "GoLang", "Gin", "Recharts", "ShadCN"],
-        liveUrl: "https://devflow-console.vercel.app/",
-        githubUrl: "https://github.com/ayyush08/Devflow-Console",
+            "An AI-powered trip planner web app that uses the Gemini API to generate personalized travel itineraries based on user inputs like location, stay duration, group size, and budget.",
+        image: "https://ik.imagekit.io/b9cyvtvid/tervai.png?updatedAt=1757947573737",
+        techStack: ["React.js", "Gemini API", "Framer Motion", "Tailwind", "Google Maps API","Axios"],
+        liveUrl: "https://ai-trip-planner-rho-mauve.vercel.app/",
+        githubUrl: "https://github.com/AhmadRazaSiddiqi/Ai-Trip-Planner",
     },
     {
         id: 2,
-        title: "Inkognito - Anonymous Messages",
-        description: "A full-stack web application in NextJS, enabling users to send anonymous messages via public profile URLs, with a sleek UI and robust backend.",
-        image: "https://ik.imagekit.io/lmpthl5suv/ink.jpg?updatedAt=1748963140186",
-        techStack: ["Next.js", "Gemini", "Auth.js", "MongoDB", "Zod", "Resend"],
-        liveUrl: "https://inkognito-msg.vercel.app/",
-        githubUrl: "https://github.com/ayyush08/Inkognito",
+        title: "XD Code",
+        description: "A full-stack code editor web app inspired by GeeksforGeeks’ editor that allows users to create accounts, manage files, and edit HTML, CSS, and JavaScript with live output, built using the MERN stack.",
+        image: "https://ik.imagekit.io/b9cyvtvid/xdcode.png?updatedAt=1757949667821",
+        techStack: ["React js", "Node js", "Express js", "MongoDB", "Tailwind", "JsonWebToken","Axios","Bycrypt"],
+        liveUrl: "xdcode.vercel.app/",
+        githubUrl: "https://github.com/AhmadRazaSiddiqi/XDcode",
     },
-    // {
-    //     id: 3,
-    //     title: "CuraTube",
-    //     description: "A collaborative tool for managing projects, including kanban boards, time logging, and team statistics.",
-    //     image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?q=80&w=3500&auto=format&fit=crop",
-    //     techStack: ["Vue.js", "Express", "Redis", "Docker"],
-    //     liveUrl: "https://example.com",
-    //     githubUrl: "https://github.com/example",
-    // },
+    {
+        id: 3,
+        title: "Ecomerce Store",
+        description: "An e-commerce web app  built with ReactJS, Redux Toolkit, and Tailwind CSS to provide a modern, responsive shopping experience with efficient state management and dynamic styling.",
+        image: "https://ik.imagekit.io/b9cyvtvid/Screenshot%202025-09-15%20195915.png?updatedAt=1757948397719",
+        techStack: ["React js", "Redux Toolkit", "Tailwind","Axios"],
+        liveUrl: "ecome-store-pi.vercel.app",
+        githubUrl: "https://github.com/AhmadRazaSiddiqi/Clothing-Store",
+    },
 ]
 
 export function Projects() {
