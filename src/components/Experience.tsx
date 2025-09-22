@@ -1,18 +1,18 @@
-"use client"
+"use client";
 
-import React from "react"
-import { motion } from "framer-motion"
+import React from "react";
+import { motion } from "framer-motion";
 
 interface ExperienceItem {
-  role: string
-  company: string
-  description: string
-  date: string
+  role: string;
+  company: string;
+  description: string;
+  date: string;
 }
 
 const experienceItems: ExperienceItem[] = [
   {
-    role: "Junior Frontend Developer",
+    role: "Junior Full Stack Developer",
     company: "EverSols",
     description:
       "Contributed to the development of a client-facing web application using React and Node.js. Implemented new features, fixed bugs, and participated in agile development cycles. Gained hands-on experience with REST APIs, database management with PostgreSQL, and version control with Git.",
@@ -32,7 +32,7 @@ const experienceItems: ExperienceItem[] = [
       "Actively contributing to an open-source platform for developers. My contributions include developing UI components with Tailwind CSS, enhancing API endpoints, and improving overall code quality through peer reviews.",
     date: "Sept. 2023 - Jan 2024",
   },
-]
+];
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -43,7 +43,7 @@ const containerVariants = {
       delayChildren: 0.2,
     },
   },
-}
+};
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -52,7 +52,7 @@ const itemVariants = {
     y: 0,
     transition: { duration: 0.5, ease: "easeOut" },
   },
-}
+};
 
 const Experience = () => {
   return (
@@ -83,7 +83,7 @@ const Experience = () => {
           className="relative border-l border-gray-300 dark:border-neutral-700 pl-6 space-y-12"
         >
           {experienceItems.map((item, idx) => (
-            <motion.div key={idx} variants={itemVariants} className="relative" >
+            <motion.div key={idx} variants={itemVariants} className="relative">
               {/* Timeline Dot */}
               <span className="absolute left-[-30px] top-2 w-3 h-3 bg-orange-500 rounded-full border-2 border-black dark:border-neutral-900" />
 
@@ -101,14 +101,16 @@ const Experience = () => {
                     {item.date}
                   </span>
                 </div>
-                <p className="text-gray-400 leading-relaxed">{item.description}</p>
+                <p className="text-gray-400 leading-relaxed">
+                  {item.description}
+                </p>
               </div>
             </motion.div>
           ))}
         </motion.div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

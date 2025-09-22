@@ -13,7 +13,7 @@ import {
 import Link from "next/link";
 
 // Reusable transition and variants
-const transition = { duration: 1, ease: [.25, .1, .25, 1] };
+const transition = { duration: 1, ease: [0.25, 0.1, 0.25, 1] };
 const variants = {
   hidden: { filter: "blur(10px)", y: 20, opacity: 0 },
   visible: { filter: "blur(0px)", y: 0, opacity: 1 },
@@ -33,7 +33,6 @@ const Hero = () => {
       <motion.div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
         {/* Left: Text Content */}
         <div className="text-center md:text-left flex flex-col gap-4 text-neutral-500 font-semibold text-3xl sm:text-3xl md:text-4xl dark:text-neutral-400">
-          
           {/* Greeting */}
           <motion.span
             variants={variants}
@@ -75,7 +74,9 @@ const Hero = () => {
               target="_blank"
               className="group/btn shadow-input relative flex h-10 w-10 items-center justify-center rounded-full transition-all duration-200 text-neutral-700 dark:text-neutral-200  hover:text-white "
             >
-              <span><IconBrandGithub className="h-6 w-6 hover:drop-shadow-white hover:drop-shadow-lg" /></span>
+              <span>
+                <IconBrandGithub className="h-6 w-6 hover:drop-shadow-white hover:drop-shadow-lg" />
+              </span>
             </Link>
 
             <Link
@@ -102,13 +103,13 @@ const Hero = () => {
           transition={transition}
           className="flex justify-center md:justify-end"
         >
-          <BackgroundGradient className="rounded-full">
+          <BackgroundGradient className="rounded-full heroImg">
             <Image
               src="/ahmad.png"
               alt="Hero Image"
               width={400}
               height={400}
-              className="rounded-full"
+              className="rounded-full heroImage"
             />
           </BackgroundGradient>
         </motion.div>
