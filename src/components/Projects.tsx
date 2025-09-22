@@ -22,7 +22,7 @@ const projects = [
         description: "A full-stack code editor web app inspired by GeeksforGeeks’ editor that allows users to create accounts, manage files, and edit HTML, CSS, and JavaScript with live output, built using the MERN stack.",
         image: "https://ik.imagekit.io/b9cyvtvid/xdcode.png?updatedAt=1757949667821",
         techStack: ["React js", "Node js", "Express js", "MongoDB", "Tailwind", "JsonWebToken","Axios","Bycrypt"],
-        liveUrl: "xdcode.vercel.app/",
+        liveUrl: "https://xdcode.vercel.app/",
         githubUrl: "https://github.com/AhmadRazaSiddiqi/XDcode",
     },
     {
@@ -31,7 +31,7 @@ const projects = [
         description: "An e-commerce web app  built with ReactJS, Redux Toolkit, and Tailwind CSS to provide a modern, responsive shopping experience with efficient state management and dynamic styling.",
         image: "https://ik.imagekit.io/b9cyvtvid/Screenshot%202025-09-15%20195915.png?updatedAt=1757948397719",
         techStack: ["React js", "Redux Toolkit", "Tailwind","Axios"],
-        liveUrl: "ecome-store-pi.vercel.app",
+        liveUrl: "https://ecome-store-pi.vercel.app",
         githubUrl: "https://github.com/AhmadRazaSiddiqi/Clothing-Store",
     },
 ]

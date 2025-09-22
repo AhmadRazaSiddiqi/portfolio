@@ -30,7 +30,7 @@ export function Navbar() {
 
     const handleDownloadResume = () => {
         
-        const resumeUrl = "https://drive.google.com/file/d/1tdNKNzQ0YjZ2CIZjcMgY1lnrEu6Kmw1W"
+        const resumeUrl = "https://drive.google.com/file/d/1mIljWjqBSJ1URNfiFSkLe_c7koxn1feL"
         const link = document.createElement("a")
         link.href = resumeUrl
         link.download = "AhmadRazaSiddiqi.pdf"
