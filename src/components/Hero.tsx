@@ -104,7 +104,7 @@ const Hero = () => {
         >
           <BackgroundGradient className="rounded-full">
             <Image
-              src="/ayush.jpg"
+              src="/ahmad.png"
               alt="Hero Image"
               width={400}
               height={400}
